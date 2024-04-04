@@ -1,0 +1,31 @@
+{
+  "name": "knida-5637-cli-number-guessing",
+  "version": "2.0.1",
+  "description": "This is cli based numbers guessing game.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nida23691/cli-number-guessing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nida23691/cli-number-guessing/issues"
+  },
+  "homepage": "https://github.com/nida23691/cli-number-guessing#readme",
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "knida-5637-cli-number-guessing": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
